@@ -1,8 +1,9 @@
+/* for mobile */
 @media only screen and (max-width: 560px){
 .faintgreen{
     background-color: #ccffee;
     width:100%;
-    padding: 5%
+    padding: 5%;
 }
 .faintblue{
     background-color: #b3d9ff;
@@ -38,4 +39,83 @@
     padding:5%;
     background-color: #ffff80;
 }
+}
+
+/* for desktop */
+@media only screen and (min-width: 1224px){
+    .faintgreen{
+        position: relative;
+        background-color: #ccffee;
+        width:100%;
+        height:350%;
+        padding: 5%
+    } 
+    .faintblue{
+        background-color: #b3d9ff;
+        width:90%;
+        height:95%;
+        padding: 5%;
+        color: #ffffff;
+    }
+    .grey{
+        position: absolute;
+        background-color: gray;
+        height: 105%;
+        top:-5%;
+        left:66.66%;
+        width:33.33%;
+    }
+
+    .hotred{
+        padding:2%;
+        background-color: red;
+        width:30%;
+        color: #ffffff;
+    }
+    .faintyellow2{
+        position: absolute;
+        top:7%;
+        left:55%;
+        padding:5%;
+        background-color: #ffff80;
+    }
+    .whitediv{
+        padding: 5%;
+        background-color: #ffffff;
+        width:57%;
+        margin-left: -11%
+    }
+    .redparti{
+        position: absolute;
+        left:40%;
+        top:40%;
+        padding: 5%;
+        background-color: #ff0066;
+    }
+    .req{
+        position: absolute;
+        left:40%;
+        top:65%;
+        padding: 5%;
+        background-color: #ffffff;
+    }
+    .benefits{
+        position: absolute;
+        left:10%;
+        top:70%;
+        width:25%;
+        padding: 5%;
+        background-color: #ffffff;
+    }
+    .faintyellow{
+        position: absolute;
+        left: 40%;
+        top:89.5%;
+        background-color: #ffff80;
+    }
+    .sowhat{
+        width:30%;
+        padding: 5%;
+
+    }
 }
