@@ -1,0 +1,41 @@
+@media only screen and (max-width: 560px){
+.faintgreen{
+    background-color: #ccffee;
+    width:100%;
+    padding: 5%
+}
+.faintblue{
+    background-color: #b3d9ff;
+    width:90%;
+    padding: 5%;
+    color: #ffffff;
+}
+.hotred{
+    padding:2%;
+    background-color: red;
+    width:60%;
+    color: #ffffff;
+}
+.whitediv{
+    padding: 5%;
+    background-color: #ffffff;
+    margin-left: -11%
+}
+.redparti{
+    padding: 5%;
+    background-color: #ff0066;
+}
+.whitebene{
+    padding: 5%;
+    background-color: #ffffff;
+}
+.faintyellow{
+    padding:5%;
+    width:50%;
+    background-color: #ffff80;
+}
+.faintyellow2{
+    padding:5%;
+    background-color: #ffff80;
+}
+}
