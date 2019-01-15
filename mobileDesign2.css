@@ -11,11 +11,18 @@
     padding: 5%;
     color: #ffffff;
 }
+.beautyhead{
+    font-size: 50px;
+    width:40%;
+}
 .hotred{
     padding:2%;
     background-color: red;
     width:60%;
     color: #ffffff;
+}
+.demo{
+    width:90%;
 }
 .whitediv{
     padding: 5%;
@@ -41,7 +48,93 @@
 }
 }
 
-
+/* for tablet */
+@media only screen and (min-width: 561px) and (max-width: 1223px){
+    .faintgreen{
+        position: relative;
+        background-color: #ccffee;
+        width:100%;
+        height:350%;
+        padding: 5%
+    } 
+    .faintblue{
+        background-color: #b3d9ff;
+        width:90%;
+        height:95%;
+        padding: 5%;
+        color: #ffffff;
+    }
+    .beautyhead{
+        font-size: 80px;
+        width:40%;
+    }
+    .grey{
+        opacity: 0.6;
+        position: absolute;
+        background-color: gray;
+        height: 105%;
+        top:-5%;
+        left:66.66%;
+        width:33.33%;
+    }
+    .hotred{
+        opacity: 0.7;
+        padding:2%;
+        background-color: red;
+        width:30%;
+        color: #ffffff;
+    }
+    .demo{
+        width:35%;
+    }
+    .faintyellow2{
+        opacity: 0.7;
+        position: absolute;
+        top:7%;
+        left:55%;
+        padding:5%;
+        background-color: #ffff80;
+    }
+    .whitediv{
+        opacity: 0.7;
+        padding: 5%;
+        background-color: #ffffff;
+        width:40%;
+        margin-left: -11%
+    }
+    .redparti{
+        opacity: 0.7;
+        position: absolute;
+        left:40%;
+        top:40%;
+        padding: 5%;
+        background-color: #ff0066;
+    }
+    .req{
+        opacity: 0.7;
+        position: absolute;
+        left:40%;
+        top:61%;
+        padding: 5%;
+        background-color: #ffffff;
+    }
+    .benefits{
+        opacity: 0.7;
+        position: absolute;
+        left:10%;
+        top:64%;
+        width:21%;
+        padding: 5%;
+        background-color: #ffffff;
+    }
+    .faintyellow{
+        opacity: 0.7;
+        position: absolute;
+        left: 40%;
+        top:94%;
+        background-color: #ffff80;
+    }
+}
 
 /* for desktop */
 @media only screen and (min-width: 1224px){
@@ -58,6 +151,10 @@
         height:95%;
         padding: 5%;
         color: #ffffff;
+    }
+    .beautyhead{
+        font-size: 80px;
+        width:35%;
     }
     .grey{
         opacity: 0.6;
@@ -76,6 +173,9 @@
         width:30%;
         color: #ffffff;
     }
+    .demo{
+        width:55%;
+    }
     .faintyellow2{
         opacity: 0.7;
         position: absolute;
@@ -88,7 +188,7 @@
         opacity: 0.7;
         padding: 5%;
         background-color: #ffffff;
-        width:57%;
+        width:57.1%;
         margin-left: -11%
     }
     .redparti{
@@ -103,7 +203,7 @@
         opacity: 0.7;
         position: absolute;
         left:40%;
-        top:55%;
+        top:55.9%;
         padding: 5%;
         background-color: #ffffff;
     }
@@ -111,8 +211,8 @@
         opacity: 0.7;
         position: absolute;
         left:10%;
-        top:60%;
-        width:25%;
+        top:58%;
+        width:21%;
         padding: 5%;
         background-color: #ffffff;
     }
@@ -120,7 +220,7 @@
         opacity: 0.7;
         position: absolute;
         left: 40%;
-        top:79.5%;
+        top:80.5%;
         background-color: #ffff80;
     }
     .sowhat{
